@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['ollama', 'open-source LLMs', 'vector databases', 'crew-ai', 'chromadb', 'langchain', 'streamlit', 'dagster', 'python', 'gatsby', 'react', 'javascript (ES6+)', 'docker', 'SQL', 'Metabase (data dashboarding)', 'DataDog (monitoring, log collation)', 'Selenium (browser automation)', 'Arduino/ESP32' ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +135,42 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+            I've been writing software since the early 1990's, back when some of us still used actually floppy
+            floppy disks. My first program was in Turbo Pascal, in a DOS based IDE that bragged about their
+            copy/paste features!
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I've had the luck and pleasure of wearing many different hats. <br /> <br/>
+              Here are a few public accolades and press I've received most recently that showcase my combined talents:
+              <ul>
+                <li><a href="https://bloombergcities.medium.com/looking-for-low-cost-hacks-to-make-a-data-driven-city-f310e8e55aa2"><u>Bloomberg Cities Innovator of the Week</u></a></li>
+                <li><a href="https://makezine.com/article/maker-news/hacking-garbage-trucks-to-bring-broadband-to-those-in-need/"><u>Hacking Garbage Trucks to Bring Broadband to Those in Need</u></a></li>
+                <li><a href="https://710keel.com/top-10-successes-of-mayor-perkins-in-his-first-year/"><u>Locally rated #1 Hire of Mayor Perkins</u></a></li>
+                <li><a href="https://www.daveyawards.com/winners/gallery/?year=8&type=12"><u>2012 Best in Show & Gold Winner: Mobile Applications</u></a></li>
+              </ul>
+
+              I ran a successful software development agency called Twin Engine Labs, where my team and I recruited 
+              and trained dozens of amazing software developers, right here in Shreveport. Twin Engine Labs merged successfully
+              with another local web development agency in 2019, who are still creating amazing web and mobile applications for 
+              clients at <a href="https://www.rubyshore.com">RubyShore.com</a>. 
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+
+              Several of the articles mention my time in City Hall here in Shreveport. Shortly after my company's merger, I was
+              asked to become Shreveport first Chief Technology Officer by then Mayor Adrian Perkins. <br /><br/>
+
+              In the time I served with him, I re-org'd the IT department, created pathways for promotional raises when I saw that
+              many of my staff had not had any increases in more than a decade, I recruited heavily and finally reached 100% roster
+              after years of almost 50% shortages, created a Real Time Crime Center, and help bring free Broadband to citizens who couldn't afford it. <br /><br />
+
+              While I am enormously proud of the team and our accomplishments, I longed for the full-time developer focused life once
+              more. In January 2023, I struck back out on my own again and couldn't be happier with my decision.
+
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve been working with recently and am open for contracts for:</p>
           </div>
 
           <ul className="skills-list">

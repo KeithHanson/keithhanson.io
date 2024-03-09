@@ -60,29 +60,34 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Keith Hanson:</h2>;
+  const three = <h3 className="big-heading">A Contract Software Development Warlock</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        Drawing from my adventures as the former CTO of the City of Shreveport and the founder & CEO at a thriving software consultancy before that, 
+        I've racked up more than 20 years of tech wizardry and executive savvy. <br /><br />
+
+        Now, I'm channeling all that know-how into helping CIOs, Chief Innovation Officers, and CTOs navigate the tricky waters of 
+        tech, AI, and the web from my desk here in my hometown Shreveport, Louisiana. <br /><br />
+
+        These days, you'll find me collaborating with the folks at {' '}
+        <a href="https://abatix.com/" target="_blank" rel="noreferrer">
+          Abatix
+        </a>.  They're all about enterprise e-commerce and industrial gear, and I'm crafting a shiny new e-commerce store, weaving AI magic into every nook and cranny of their operations, and lending a hand to their CTO. 
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
+    <div style={{marginTop: 10}}>
+      <a
+        className="email-link"
+        href="mailto:keith@keithhanson.io?subject='Can you build it?'"
+        target="_blank"
+        rel="noreferrer" style={{marginTop: 0}}>
+        Let's make magic together 
+      </a>
+    </div>
   );
 
   const items = [one, two, three, four, five];
